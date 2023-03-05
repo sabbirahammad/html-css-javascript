@@ -1,0 +1,340 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Scheherazade New', serif;
+}
+body{
+    background-color: #f1f1f1;
+}
+.quez{
+    height: 580px;
+    width: 320px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    box-shadow: rgb(0 0 0/ 10%)0px 10px 50px;
+    transform: translate(-50%,-50%);
+    border-radius: 48px;
+}
+.img img{
+    width: 100%;
+}
+.text h3{
+    font-size: 20px;
+   margin-left: 18px;
+}
+.text p{
+    padding: 15px;
+    margin-top:-20px;
+   margin-left: 5px;
+}
+
+.butt{
+    margin-left: 187px !important;
+    width: 60%;
+   margin-top: -10px;
+}
+.butt button{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: tomato;
+    border: none;
+    outline: none;
+    padding: 6px 25px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 57px 0px 51px 0px;
+    transition: 0.5s ease-in-out;
+}
+.butt button:hover{
+    background-color: aqua;
+}
+.second-page.active{
+    opacity: 1;
+    z-index: 5;
+    pointer-events: auto;
+    transform: translate(-50% , -50%) scale(1);
+}
+.second-page{
+    height: 580px;
+    width: 320px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    box-shadow: rgb(0 0 0/ 10%)0px 10px 50px;
+    transform: translate(-50%,-50%);
+    border-radius: 48px;
+    opacity: 0;
+    pointer-events: none;
+}
+.hidden-text{
+    font-size: 20px;
+   text-align: center;
+   border-bottom: 1px solid gray;
+    margin-top: 15px;
+}
+.text-ul ul li{
+   font-size: 18px;
+   margin-left: 49px;
+   padding: 4px;
+ list-style-type: decimal;
+}
+.butt2{
+    width: 60%;
+}
+.cont{
+    background-color: tomato;
+    padding: 6px 25px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 197px;
+    border-radius: 57px 0px 51px 0px;
+    position: relative;
+    bottom: 53px;
+    transition: 0.3s ease-in-out;
+}
+.exit{
+    background-color: tomato;
+    color: #fff;
+    padding: 6px 25px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 0px 57px 0px 51px;
+    margin-top: 61px;
+    transition: 0.3s ease-in-out;
+}
+.cont:hover{
+    background-color:aqua;
+}
+.exit:hover{
+    background-color:red;
+}
+span{
+    color: #ff7200;
+}
+.question.active2{
+    opacity: 1;
+    pointer-events: auto;
+    z-index: 5;
+    transform: translate(-50%,-50%)scale(1);
+}
+.question{
+   height: 580px;
+   width: 320px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 48px;
+    box-shadow: rgb(0 0 0/ 10%)0px 10px 50px;
+    opacity: 0;
+    pointer-events: none;
+}
+.question-hadding{
+    font-size: 17px;
+}
+.start-text{
+    margin-left: 27px;
+   margin-top: 20px;
+   font-weight: bold;
+}
+.time-off{
+    position: absolute;
+    left: 160px;
+    top: 23px;
+    color: rgb(4, 122, 122);
+    font-weight: bold;
+    background-color:#cce5ff;
+    width: 80px;
+    height: 25px;
+}
+.text5{
+   padding: 2px;
+   position: relative;
+   bottom: 7px;
+   font-size:17px ;
+}
+.second{
+    position: absolute;
+    left: 237px;
+    top: 23px;
+    background-color: rgb(33, 30, 30);
+    color: #fff;
+   width: 50px;
+   height: 25px;
+   text-align: center;
+}
+.second h3{
+    font-size: 17px;
+    text-align: center;
+    position: relative;
+    bottom: 5px;
+}
+.question-body{
+    padding: 20px;
+}
+.body-text{
+    width: 100%;
+    height: 32px;
+    margin-bottom: 70px;
+}
+.body-text span{
+    font-size: 25px;
+    margin-top: 10px;
+    color: black;
+}
+.option span{
+    color: black;
+}
+.option{
+    width: 90%;
+    height: 32px;
+    background-color: rgb(176, 226, 226);
+   text-align: center;
+  margin-top: 17px;
+   padding: 10px 15px;
+   font-size:17px ;
+   border-radius: 10px;
+}
+
+.option:hover{
+    background-color: #cce5ff;
+    color: #004085;
+    border: 1px solid #b8daff;
+}
+
+.total-qe{
+    margin: 20px;
+    position: relative;
+    top: 33px;
+    font-size: 17px;
+   
+}
+.butt3{
+    margin-left: 200px !important;
+    width: 60%;
+}
+.butt3 button{
+    font-size: 20px;
+    padding: 6px 25px;
+    background-color: tomato;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 80px 0px 58px 0px;
+    position: relative;
+   bottom: 8px;
+    transition: 0.5s ease-in-out;
+   
+}
+.butt3 button:hover{
+    background-color: black;
+    color: #fff;
+}
+.timeline{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 3px;
+    background: #007bff;
+    top: 70px;
+}
+.option.currect{
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid grey;
+}
+.option.incurrect{
+    color: #721c24;
+    background-color: #739ac4;
+    border: 1px solid rosybrown;
+
+}
+.option.sto{
+    pointer-events: none;
+}
+.result{
+    height: 580px;
+    width: 320px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    box-shadow: rgb(0 0 0/ 10%)0px 10px 50px;
+    transform: translate(-50%,-50%);
+    border-radius: 48px;
+
+    transform: translate(-50%,-50%) scale(0.9);
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s ease;
+}
+.result.result2{
+    opacity: 1;
+    pointer-events: auto;
+    z-index: 5;
+    transform: translate(-50%,-50%)scale(1);
+}
+.drow2 img{
+    width: 100%;
+    height: 230px;
+}
+.result-text{
+    font-size:20px ;
+    text-align: center;
+    position: relative;
+    top: 120px;
+}
+.like{
+    font-size: 17px;
+    text-align: center;
+    position: relative;
+    top: 120px;
+}
+.like i{
+    color: #ff7200;
+}
+.last-button{
+   
+    text-align: center;
+}
+.reply1{
+    background-color: #007bff;
+    font-size: 18px;
+    padding: 2px 15px;
+    border: none;
+    outline: none;
+    position: relative;
+   right: 30px;
+    top: 170px;
+    border-radius: 10px;
+    transition: 0.4s ease-in-out;
+}
+.quit1{
+    background-color: #007bff;
+    font-size: 18px;
+    padding: 2px 15px;
+    border: none;
+    outline: none;
+    position: relative;
+  left: 40px;
+    top: 170px;
+    border-radius: 10px;
+    transition: 0.4s ease-in-out;
+}
+.reply1:hover{
+    background-color: black;
+    color: #fff;
+}
+.quit1:hover{
+    background-color: black;
+    color: #fff;
+}
